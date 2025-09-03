@@ -1,6 +1,7 @@
 package Unit3;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -17,5 +18,11 @@ public class ArrayList3 {
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
+        products.addLast("Lichi");
+        products.addFirst("Banana");
+        products.add(3,"Grapes");
+        Collections.sort(products);
+        System.out.println(products);
+        System.out.println(products.getFirst());
     }
 }
