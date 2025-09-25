@@ -1,3 +1,0 @@
-user=system
-        password=oracle
-admin=admin@1234
