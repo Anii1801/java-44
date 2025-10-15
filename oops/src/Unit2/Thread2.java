@@ -1,4 +1,4 @@
-package Unit3;
+package Unit2;
 
 public class Thread2 extends Thread {
     public void run() {

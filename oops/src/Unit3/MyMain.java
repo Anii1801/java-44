@@ -1,5 +1,8 @@
 package Unit3;
 
+import Unit2.Thread1;
+import Unit2.Thread2;
+
 public class MyMain {
     public static void main(String[] args) {
         Thread th1=new Thread1();
