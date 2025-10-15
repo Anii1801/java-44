@@ -10,5 +10,8 @@ public class LambdaDemo1 {
         else{
             System.out.println("Number is Odd");
         }
+//        NumericTest square=(n)->;
+//        System.out.println(square.calculate(5));
+
     }
 }
